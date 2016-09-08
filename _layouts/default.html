@@ -1,60 +1,7 @@
 {% include head.html %}
-
-<main id="wrapper">
-{% include nav.html %}
-<aside>
-	<h2>Sisällöt</h2>
-	<ul id="blogPostList">
-		{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url}}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
-			<section>
-				<div class="linkContent">
-					<h4>{{ post.title | escape }}</h4>
-					<p>{{ post.content | strip_html | truncatewords:10}}</p>
-				</div>
-				<div class="linkDetails">
-					<h6><span><i class="fa fa-html5"></i></span>HTML ( 4 )</h6>
-					<span>|</span>
-					<time>{{ post.date | date: "%m.%d.%Y" }}</time>
-				</div>
-			</section>
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
-	<div id="archives">
-		<h2>Arkisto</h2>
-		<ul id="archivesList">
-			<li>
-				<a href=""><h4><i class="fa fa-globe"></i> Internet <span>( 1 )</span></h4></a>
-			</li>
-			<li>
-				<a href=""><h4><i class="fa fa-html5"></i> HTML <span>( 4 )</span></h4></a>
-			</li>
-			<li>
-				<a href=""><h4><i class="fa fa-css3"></i> CSS <span>( 4 )</span></h4></a>
-			</li>
-			<li>
-				<a href=""><h4><i class="fa fa-code"></i> Javascript <span>( 4 )</span></h4></a>
-			</li>
-			<li>
-				<a href=""><h4><i class="fa fa-cogs"></i> Koodarin työkalut <span>( 4 )</span></h4></a>
-			</li>
-		</ul>
-	</div>
-</aside>
-<article>
-	<header>
-		<div class='embed-container'>
-			<iframe width="100%" height="350px" src="https://www.youtube.com/embed/uAthNqWnyVE" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</header>
-	<section>
-		<span class="content">
-		{{ content }} 
-		</span>
-	</section>
-</article>
-</main>
+<div>
+	<span class="content">
+	{{ content }} 
+	</span>
+</div>
 {% include footer.html %}
