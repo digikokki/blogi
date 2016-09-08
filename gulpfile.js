@@ -11,7 +11,7 @@ const gulp 			= require('gulp'),
       imagemin 		= require('gulp-imagemin'),
       pngquant     	= require('imagemin-pngquant'),
       sourcemaps 	= require('gulp-sourcemaps'),
-      uglify		= require('gulp-uglify');
+      uglify		= require('gulp-uglifyjs'),
       rainbow 	 	= require('rainbow-code');
 
 // Set the path variables
