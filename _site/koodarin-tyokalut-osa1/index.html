@@ -17,7 +17,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<script src="https://use.fontawesome.com/4600805050.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="/assets/js/application.min.js"></script>
+		<script src="/assets/js/jquery.history.min.js"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', '']);
@@ -28,6 +28,7 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 		</script>
+		
 	</head>
 <body>
 <div>
@@ -43,13 +44,6 @@
 			<li><a href="">Vlogit</a><span>9</span></li-->
 			
 			
-			
-				
-					<li>
-						<a href="/" title="Koti" >
-							Koti 
-						</a>
-					</li>
 				
 			
 				
@@ -76,8 +70,6 @@
 					</li>
 				
 			
-
-			
 		</ul>
 		<ul id="contactInfo">
 			 <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i> 5035 545 22</a></li>
@@ -97,11 +89,11 @@
 	<ul id="blogPostList">
 		
 		<li>
-			<a href="/koodarin-tyokalut/2016/09/08/koodarin-tyokalut-osa1.html" title="Koodarin työkalut osa 1" >
+			<a href="/koodarin-tyokalut-osa1/" title="Koodarin työkalut osa 2" class="active">
 			<section>
 				<div class="linkContent">
-					<h4>Koodarin työkalut osa 1</h4>
-					<p>Hei! {% highlight html %} def print_hi(name) puts "Hi, #{name}"...</p>
+					<h4>Koodarin työkalut osa 2</h4>
+					<p>Hei! def print_hi(name) puts "Hi, #{name}" end print_hi('Tom') #=&gt; prints...</p>
 				</div>
 				<div class="linkDetails">
 					<h6><span><i class="fa fa-html5"></i></span>HTML ( 4 )</h6>
@@ -113,7 +105,7 @@
 		</li>
 		
 		<li>
-			<a href="/html/2016/09/06/welcome-to-jekyll.html" title="Koodarin työkalut osa 1" class="active">
+			<a href="/welcome-to-jekyll/" title="Koodarin työkalut osa 1" >
 			<section>
 				<div class="linkContent">
 					<h4>Koodarin työkalut osa 1</h4>
@@ -129,7 +121,7 @@
 		</li>
 		
 		<li>
-			<a href="/jekyll/update/2016/09/06/welcome.html" title="Hello World!" >
+			<a href="/welcome/" title="Hello World!" >
 			<section>
 				<div class="linkContent">
 					<h4>Hello World!</h4>
@@ -173,18 +165,13 @@
 		</div>
 	</header>
 	<section>
-		<p>2
-You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+		<p>Hei!</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">	def print_hi(name)
-	  puts "Hi, #{name}"
-	end
-	print_hi('Tom')
-	#=&gt; prints 'Hi, Tom' to STDOUT.</code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html">def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=&gt; prints 'Hi, Tom' to STDOUT.</code></pre></figure>
 
 <p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
@@ -195,7 +182,5 @@ You’ll find this post in your <code class="highlighter-rouge">_posts</code> di
 	</span>
 </div>
 
-		<script src="/assets/js/rainbow-custom.min.js"></script>
-		<script src="/assets/js/scripts.min.js"></script>
 	</body>
 </html>

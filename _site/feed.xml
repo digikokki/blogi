@@ -6,12 +6,12 @@
 </description>
     <link>http://example.com/</link>
     <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Sep 2016 13:22:20 +0300</pubDate>
-    <lastBuildDate>Thu, 08 Sep 2016 13:22:20 +0300</lastBuildDate>
+    <pubDate>Fri, 09 Sep 2016 11:55:03 +0300</pubDate>
+    <lastBuildDate>Fri, 09 Sep 2016 11:55:03 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Koodarin työkalut osa 1</title>
+        <title>Koodarin työkalut osa 2</title>
         <description>&lt;p&gt;Hei!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;def print_hi(name)
@@ -24,8 +24,8 @@ print_hi('Tom')
 
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0300</pubDate>
-        <link>http://example.com/koodarin-tyokalut/2016/09/08/koodarin-tyokalut-osa1.html</link>
-        <guid isPermaLink="true">http://example.com/koodarin-tyokalut/2016/09/08/koodarin-tyokalut-osa1.html</guid>
+        <link>http://example.com/koodarin-tyokalut-osa1/</link>
+        <guid isPermaLink="true">http://example.com/koodarin-tyokalut-osa1/</guid>
         
         
         <category>koodarin-tyokalut</category>
@@ -51,8 +51,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/html/2016/09/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://example.com/html/2016/09/06/welcome-to-jekyll.html</guid>
+        <link>http://example.com/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://example.com/welcome-to-jekyll/</guid>
         
         
         <category>html</category>
@@ -78,13 +78,11 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/jekyll/update/2016/09/06/welcome.html</link>
-        <guid isPermaLink="true">http://example.com/jekyll/update/2016/09/06/welcome.html</guid>
+        <link>http://example.com/welcome/</link>
+        <guid isPermaLink="true">http://example.com/welcome/</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>html</category>
         
       </item>
     

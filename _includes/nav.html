@@ -6,7 +6,6 @@
 			<li><a href="">Tietoa</a></li>
 			<li><a href="">Kurssit</a><span>25</span></li>
 			<li><a href="">Vlogit</a><span>9</span></li-->
-			
 			{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
 			{% for p in navigation_pages %}
 				{% if p.navigation_weight %}
@@ -17,8 +16,6 @@
 					</li>
 				{% endif %}
 			{% endfor %}
-
-			
 		</ul>
 		<ul id="contactInfo">
 			 <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i> 5035 545 22</a></li>

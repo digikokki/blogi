@@ -1,31 +1,31 @@
 ---
 layout: default
 title: Koti
-navigation_weight: 1
 ---
 <main id="wrapper">
 {% include nav.html %}
 <aside>
 	<h2>Sisällöt</h2>
 	<ul id="blogPostList">
-		{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url}}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
-			<section>
-				<div class="linkContent">
-					<h4>{{ post.title | escape }}</h4>
-					<p>{{ post.content | strip_html | truncatewords:10}}</p>
-				</div>
-				<div class="linkDetails">
-					<h6><span><i class="fa fa-html5"></i></span>HTML ( 4 )</h6>
-					<span>|</span>
-					<time>{{ post.date | date: "%m.%d.%Y" }}</time>
-				</div>
-			</section>
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
+	{% for post in site.posts  %}
+	<li>
+		<a href="{{ post.url}}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
+		<section>
+			<div class="linkContent">
+				<h4>{{ post.title | escape }}</h4>
+				<p>{{ post.content | strip_html | truncatewords:10}}</p>
+			</div>
+			<div class="linkDetails">
+				<h6><span><i class="fa fa-html5"></i></span>HTML ( 4 )</h6>
+				<span>|</span>
+				<time>{{ post.date | date: "%m.%d.%Y" }}</time>
+			</div>
+		</section>
+		</a>
+	</li>
+	{% endfor %}
+	<ul class="pagination"></ul>
+</ul>
 	<div id="archives">
 		<h2>Arkisto</h2>
 		<ul id="archivesList">
@@ -48,6 +48,11 @@ navigation_weight: 1
 	</div>
 </aside>
 <article>
-	Etusivu
+	<header>
+		
+	</header>
+	<section>
+		<h1>{{ page.title }}</h1> 
+	</section>
 </article>
 </main>
