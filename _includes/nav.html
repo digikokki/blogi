@@ -2,10 +2,6 @@
 	<div id="navContent">
 		<a href="/"><img src="{{ img_path }}/assets/images/big-logo.png" alt="big-logo"></a>
 		<ul id="pageLinks">
-			<!--li class="active"><a href="">Koti</a></li>
-			<li><a href="">Tietoa</a></li>
-			<li><a href="">Kurssit</a><span>25</span></li>
-			<li><a href="">Vlogit</a><span>9</span></li-->
 			{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
 			{% for p in navigation_pages %}
 				{% if p.navigation_weight %}
