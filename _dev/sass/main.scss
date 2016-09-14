@@ -27,9 +27,10 @@ img{
 .embed-container iframe, .embed-container object, .embed-container embed { 
 	position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
 }
-.pagination li {
-  display:inline-block;
-  padding:5px;
+a.disabled {
+    text-decoration: none;
+    color: black;
+    cursor: default;
 }
 body{
 	height: 100%;
@@ -324,8 +325,33 @@ aside{
 			}
 		}
 	}
-	#pagenator{
-		
+	#blogPostList-pagination{
+		position: fixed;
+		width: inherit;
+		top: 450px;
+		padding: 0 35px;
+		display: flex;
+		align-content: center;
+		align-items: center;
+		align-self: center;
+		z-index: 30;
+		div{width: 100%;}
+		a{
+			color: white;
+			text-decoration: none;
+			border: solid 2px white;
+			border-radius: 30px;
+			padding: 10px 30px;
+			&.disabled{
+				display: none;
+			}
+		}
+		#blogPostList-previous{
+			float: left;
+		}
+		#blogPostList-next{
+			float: right;
+		}
 	}
 	#archives{
 		position: fixed;

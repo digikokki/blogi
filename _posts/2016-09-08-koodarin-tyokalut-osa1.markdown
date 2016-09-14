@@ -4,9 +4,11 @@ title:  "Koodarin työkalut osa 2"
 date:   2016-09-08 00:00:00 +0300
 categories: koodarin-tyokalut
 video: 
+keywords: "html5"
 ---
 
 Hei!
+
 
 {% highlight html %}
 def print_hi(name)
