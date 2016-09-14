@@ -1,5 +1,5 @@
 <ul id="blogPostList">
-	{% for post in site.posts  %}
+	{% for post in site.posts limit:4 %}
 	<li>
 		<a href="{{ post.url}}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
 		<section>
@@ -17,9 +17,3 @@
 	</li>
 	{% endfor %}
 </ul>
-<div id="blogPostList-pagination">
-	<div>
-    	<a id="blogPostList-previous" href="#">Edelliset</a> 
-		<a id="blogPostList-next" href="#">Seuraavat</a> 
-    </div>
-</div>
