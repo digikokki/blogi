@@ -9,7 +9,6 @@ $brandColorActive: #6EC4E9;
 
 html{
 	box-sizing: border-box;
-	background: $brandColorDark;
 }
 *, *:before, *:after{
 	box-sizing: inherit;
@@ -43,12 +42,10 @@ a.disabled {
     color: black;
     cursor: default;
 }
-html, body {margin: 0; height: 100%; overflow: hidden}
 body{
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: subpixel-antialiased;
-	background: $brandColorDark;
 }
 p{
 	line-height: 23px;
