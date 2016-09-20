@@ -1,0 +1,36 @@
+---
+layout: default
+title: HTML5
+---
+<main id="wrapper">
+{% include nav.html %}
+<aside>
+	<h2>Sisällöt</h2>
+	{% include blog-list.html %}
+	<div id="archives">
+		<h2>Arkisto</h2>
+		{% include archives-list.html%}
+	</div>
+</aside>
+<article>
+	<ul id="blogPostList">
+		{% for post in site.categories.javascript %}
+		<li>
+			<a href="{{ post.url}}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
+			<section>
+				<div class="linkContent">
+					<h4>{{ post.title | escape }}</h4>
+					<p>{{ post.content | strip_html | truncatewords:10}}</p>
+				</div>
+				<div class="linkDetails">
+					<h6><span><i class="fa fa-{{ post.keywords }}"></i></span>{{ post.keywords | upcase }} ( 4 )</h6>
+					<span>|</span>
+					<time>{{ post.date | date: "%m.%d.%Y" }}</time>
+				</div>
+			</section>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</article>
+</main>

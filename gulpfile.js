@@ -24,7 +24,7 @@ const base_path = './',
                   src +'/sass/**/* .scss', 
                   src +'/sass/**/**/*.scss'],
           image:  src +'/images/*',
-          jekyll: ['index.html', '_posts/*', '_layouts/*', '_includes/*' , 'assets/*', 'assets/**/*']
+          jekyll: ['index.html', '_posts/*', '_layouts/*', '_includes/*' , 'assets/*', 'assets/**/*', '*.html']
       };
 
 

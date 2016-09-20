@@ -1,0 +1,42 @@
+<ul id="archivesList">
+<li>
+	{% assign counter = 0 %}
+	{% for post in site.categories.html limit:1 %}
+	{% assign counter = counter | plus: 1 %}
+	<a href="/internet"><h4><i class="fa fa-globe"></i> Internet <span>({{ counter }})</span></h4></a>
+	{% assign counter = 0 %}
+	{% endfor %}	
+</li>
+<li>
+	{% assign counter = 0 %}
+	{% for post in site.categories.html limit:1 %}
+	{% assign counter = counter | plus: 1 %}
+	<a href="/html"><h4><i class="fa fa-html5"></i> HTML <span>({{ counter }})</span></h4></a>
+	{% assign counter = 0 %}
+	{% endfor %}
+</li>
+<li>
+	{% assign counter = 0 %}
+	{% for post in site.categories.html limit:1 %}
+	{% assign counter = counter | plus: 1 %}
+	<a href="/css"><h4><i class="fa fa-css3"></i> CSS <span>({{ counter }})</span></h4></a>
+	{% assign counter = 0 %}
+	{% endfor %}
+</li>
+<li>
+	{% assign counter = 0 %}
+	{% for post in site.categories.html limit:1 %}
+	{% assign counter = counter | plus: 1 %}
+	<a href="/javascript"><h4><i class="fa fa-code"></i> Javascript <span>({{ counter }})</span></h4></a>
+	{% assign counter = 0 %}
+	{% endfor %}
+</li>
+<li>
+	{% assign counter = 0 %}
+	{% for post in site.categories.html limit:1 %}
+	{% assign counter = counter | plus: 1 %}
+	<a href="/koodarintyokalut"><h4><i class="fa fa-cogs"></i> Koodarin työkalut <span>({{ counter }})</span></h4></a>
+	{% assign counter = 0 %}
+	{% endfor %}
+</li>
+</ul>

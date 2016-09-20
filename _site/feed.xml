@@ -6,8 +6,8 @@
 </description>
     <link>http://example.com/</link>
     <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Sep 2016 12:01:17 +0300</pubDate>
-    <lastBuildDate>Wed, 14 Sep 2016 12:01:17 +0300</lastBuildDate>
+    <pubDate>Tue, 20 Sep 2016 09:46:54 +0300</pubDate>
+    <lastBuildDate>Tue, 20 Sep 2016 09:46:54 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,7 +28,7 @@ print_hi('Tom')
         <guid isPermaLink="true">http://example.com/koodarin-tyokalut-osa1/</guid>
         
         
-        <category>koodarin-tyokalut</category>
+        <category>koodarintyokalut</category>
         
       </item>
     
@@ -55,6 +55,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
         <guid isPermaLink="true">http://example.com/welcome-to-jekyll/</guid>
         
         
+        <category>css</category>
+        
       </item>
     
       <item>
@@ -80,6 +82,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
         <guid isPermaLink="true">http://example.com/welcome/</guid>
         
         
+        <category>javascript</category>
+        
       </item>
     
       <item>
@@ -104,6 +108,26 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
         <link>http://example.com/welcome-copy/</link>
         <guid isPermaLink="true">http://example.com/welcome-copy/</guid>
         
+        
+        <category>internet</category>
+        
+      </item>
+    
+      <item>
+        <title>Html koodi ei ole varsinaisesti koodia vaan markuppia.</title>
+        <description>&lt;p&gt;Kun lähdin opiskelemaan ohjelmointia aloitin HMTL kielestä joka ei ole ohjelmointi kieli. 
+HTML on markup kieli jonka avulla voidaan luoda HTML dokumentteja jotka avautuvat selaimella nähtäväksi 
+käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, ajattele HTML koodia kuin Lego paloja. 
+Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan. HTML:llä voit rakentaa HTML elementeistä kotisivut, blogin tai vaikkapa kuvagallerian.
+HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, h2, h3, h4, h5 ja h6 lisää HTML elementeistä voi lukea &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/HTML/Element&quot;&gt;MDN sivulta&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
+        <link>http://example.com/html-kurssi/</link>
+        <guid isPermaLink="true">http://example.com/html-kurssi/</guid>
+        
+        
+        <category>html</category>
         
       </item>
     

@@ -1,0 +1,40 @@
+---
+layout: default
+title: HTML5 - Artikkelit
+---
+<main id="wrapper">
+{% include nav.html %}
+<aside>
+	<h2>Sisällöt</h2>
+	{% include blog-list.html %}
+	<div id="archives">
+		<h2>Arkisto</h2>
+		{% include archives-list.html%}
+	</div>
+</aside>
+<article id="archiveBlogList">
+	<section id="archiveHeading">
+		<h1><i class="fa fa-html5"></i> {{ page.title }}</h1>
+	</section>
+	<ul id="blogPostListAll">
+		{% for post in site.categories.html %}
+		<li>
+			<a href="{{ post.url}}" title="{{ post.title }}">
+			<section>
+			
+				<div class="blogPostListContent">
+					<h2>{{ post.title | escape }}</h2>
+					<div class="blogPostDetails">Andreas Koutsouos <span>|</span> <time>{{ post.date | date: "%m.%d.%Y" }}</time> <span>|</span> 2 Kommenttia</div>
+					<p>{{ post.content | strip_html | truncatewords:50}}</p>
+					
+				</div>
+			</section>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+	
+	
+	
+</article>
+</main>

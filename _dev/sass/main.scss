@@ -1,6 +1,9 @@
 @import "normalize";
 $whiteText: #e5e5e5;
 $blackText: #222;
+$brandColorLight: #05477c;
+$brandColorDark: #065b9f;
+$brandColorActive: #f6c604;
 
 html{
 	box-sizing: border-box;
@@ -8,17 +11,19 @@ html{
 *, *:before, *:after{
 	box-sizing: inherit;
 }
+a{
+	text-decoration: none;
+}
 img{
 	max-width: 100%;
 }
-
-.fa-html5{
+.fa-html5, .html5{
 	color: #f16529;
 }
-.fa-css3{
+.fa-css3, .css3{
 	color: #33a9dc;
 }
-.fa-globe{
+.fa-globe, .globe{
 	color: #6ecd56;
 }
 .embed-container { 
@@ -36,6 +41,9 @@ body{
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: subpixel-antialiased;
+}
+p{
+	line-height: 23px;
 }
 #wrapper {
     display: flex;
@@ -120,7 +128,7 @@ nav{
 					font-family: 'Montserrat', sans-serif;
 					font-size: 13px;
 					background: white;
-					box-shadow: 0 0 0 2px #065b9f;
+					box-shadow: 0 0 0 2px $brandColorDark;
 					color: black;
 					display: flex;
 					justify-content: center;
@@ -172,7 +180,7 @@ aside{
 	display: flex;
 	flex-direction: column;
 	flex: 0 0 25em;
-	background: #05477c;
+	background: $brandColorLight;
 	h2{
 		position: fixed;
 	    display: block;
@@ -186,7 +194,7 @@ aside{
 	    padding-left: 15px;
 	    font-weight: 400;
 	    color: white;
-	    background: #05477c;
+	    background: $brandColorLight;
 	    z-index: 40;
 	}
 	ul#blogPostList{
@@ -201,7 +209,7 @@ aside{
 			content: "";
 			top: 0px;
 			left: 25px;
-			border-left: solid 2px #065b9f;
+			border-left: solid 2px $brandColorDark;
 			height: 100%;
 		}
 		li{
@@ -211,9 +219,9 @@ aside{
 					&.active{
 					section{
 						h4{
-							color: #f6c604;
+							color: $brandColorActive;
 							&:before{
-								background: #f6c604;
+								background: $brandColorActive;
 								z-index: 20;
 							}
 							&:after{
@@ -224,8 +232,8 @@ aside{
 								width: 20px;
 								height: 20px;
 								border-radius: 50px;
-								background: #05477c;
-								box-shadow: 0 0 0 2px #065b9f;
+								background: $brandColorLight;
+								box-shadow: 0 0 0 2px $brandColorDark;
 								z-index: 10;
 							}
 						}
@@ -248,8 +256,8 @@ aside{
 							width: 20px;
 							height: 20px;
 							border-radius: 50px;
-							background: #05477c;
-							box-shadow: 0 0 0 2px #065b9f;
+							background: $brandColorLight;
+							box-shadow: 0 0 0 2px $brandColorDark;
 							z-index: 10;
 						}
 
@@ -267,63 +275,7 @@ aside{
 		margin-bottom: 20px;
 		padding-bottom: 10px;
 		padding-left: 15px;
-		.linkDetails{
-			display: flex; 
-			align-items: center;
-			align-content: center;
-			opacity: 0.8;
-			h6{
-				position: relative;
-				margin: 0;
-				padding-right: 10px;
-				font-family: 'Montserrat', sans-serif;
-				color: white;
-			}
-			span{
-				color: white;
-				line-height: 0;
-				font-family: 'Montserrat', sans-serif;
-				padding-right: 10px;
-			}
-			time{
-				align-self: flex-end;
-				margin: 0;
-				padding-right: 10px;
-				font-family: 'Montserrat', sans-serif;
-				color: white;
-				font-size: 0.67em;
-				font-weight: 400;
-			}
-		}
-		.linkContent{
-			h4{
-				position: relative;
-				margin-top: 10px;
-				margin-bottom: 10px;
-				color: white;
-				font-weight: 400;
-				&:before{
-					position: absolute;
-					content: "";
-					top: 3px;
-					left: -29px;
-					width: 10px;
-					height: 10px;
-					border-radius: 50px;
-					background: #065b9f;
-					box-shadow: 0 0 0 2px #05477c;
-					z-index: 10;
-				}
-			}
-			p{
-				width: 90%;
-				margin-top: 0px;
-				margin-bottom: 5px;
-				color: rgba(255, 255, 255, 0.39);
-				font-size: 0.80em;
-				line-height: 1.8em;
-			}
-		}
+		
 	}
 	#blogPostList-pagination{
 		position: fixed;
@@ -398,8 +350,8 @@ aside{
 						width: 10px;
 						height: 10px;
 						border-radius: 50px;
-						background: #065b9f;
-						box-shadow: 0 0 0 2px #05477c;
+						background: $brandColorDark;
+						box-shadow: 0 0 0 2px $brandColorLight;
 						z-index: 10;
 					}
 				}
@@ -407,6 +359,65 @@ aside{
 		}
 	}
 }
+
+.linkDetails{
+	display: flex; 
+	align-items: center;
+	align-content: center;
+	opacity: 0.8;
+	h6{
+		position: relative;
+		margin: 0;
+		padding-right: 10px;
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+	}
+	span{
+		color: white;
+		line-height: 0;
+		font-family: 'Montserrat', sans-serif;
+		padding-right: 10px;
+	}
+	time{
+		align-self: flex-end;
+		margin: 0;
+		padding-right: 10px;
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 0.67em;
+		font-weight: 400;
+	}
+}
+.linkContent{
+	h4{
+		position: relative;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		color: white;
+		font-weight: 400;
+		&:before{
+			position: absolute;
+			content: "";
+			top: 3px;
+			left: -29px;
+			width: 10px;
+			height: 10px;
+			border-radius: 50px;
+			background: $brandColorDark;
+			box-shadow: 0 0 0 2px $brandColorLight;
+			z-index: 10;
+		}
+	}
+	p{
+		width: 90%;
+		margin-top: 0px;
+		margin-bottom: 5px;
+		color: rgba(255, 255, 255, 0.39);
+		font-size: 0.80em;
+		line-height: 1.8em;
+	}
+}
+
 article{
 	position: relative;
 	width: 100%;
@@ -433,6 +444,64 @@ article{
 			background-color: #222222;
 			color: white;
 		}
+	}
+}
+#archiveBlogList{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	#archiveHeading{
+		width: 100%;
+		padding: 10px 0px 10px 0px;
+	    border-radius: 5px;
+	    color: $blackText;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	    h1{
+		    margin: 0;
+		    margin-bottom: 70px;
+	    }
+	}
+}
+
+#blogPostListAll{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li{
+		margin-bottom: 80px;
+	}
+	section{
+		padding: 0;
+		display: flex;
+	}
+	.blogPostListImage{
+		flex: 0 0 15em;
+	}
+	.blogPostListContent{
+		padding-left: 10px;
+	}
+	h2{
+		margin: 0;
+		color: $blackText;
+		font-weight: 600;
+	}
+	h6{
+		margin: 0;
+		margin-bottom: 5px;
+		span{
+			margin-right: 5px;
+		}
+	}
+	.blogPostDetails{
+		font-size: 0.8em;
+		margin: 5px 0px 10px 0px;
+		color: #9b9b9b;
+		font-weight: 300;
+	}
+	p{
+		color: #474747;
+		margin: 0;
 	}
 }
 
@@ -662,7 +731,6 @@ figure pre code.language-javascript:after {
 	text-transform: uppercase; 
 	top: 0; 
 }
-
 
 pre { white-space: pre; word-wrap: normal; }
 pre { white-space: pre; white-space: pre-wrap; white-space: pre-line; word-wrap: break-word; }
