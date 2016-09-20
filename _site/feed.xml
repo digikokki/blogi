@@ -4,10 +4,10 @@
     <title>Digikokki - Andreas</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://example.com/blogi/</link>
-    <atom:link href="http://example.com/blogi/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Sep 2016 16:22:04 +0300</pubDate>
-    <lastBuildDate>Tue, 20 Sep 2016 16:22:04 +0300</lastBuildDate>
+    <link>http://example.com/</link>
+    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 20 Sep 2016 16:21:01 +0300</pubDate>
+    <lastBuildDate>Tue, 20 Sep 2016 16:21:01 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -24,8 +24,30 @@ print_hi('Tom')
 
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0300</pubDate>
-        <link>http://example.com/blogi/koodarin-tyokalut-osa1</link>
-        <guid isPermaLink="true">http://example.com/blogi/koodarin-tyokalut-osa1</guid>
+        <link>http://example.com/koodarin-tyokalut-osa1/</link>
+        <guid isPermaLink="true">http://example.com/koodarin-tyokalut-osa1/</guid>
+        
+        
+        <category>koodarintyokalut</category>
+        
+      </item>
+    
+      <item>
+        <title>Koodarin työkalut osa 2</title>
+        <description>&lt;p&gt;Hei!&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;def print_hi(name)
+  puts &quot;Hi, #{name}&quot;
+end
+print_hi('Tom')
+#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 +0300</pubDate>
+        <link>http://example.com/koodarin-tyokalut-osa1-copy/</link>
+        <guid isPermaLink="true">http://example.com/koodarin-tyokalut-osa1-copy/</guid>
         
         
         <category>koodarintyokalut</category>
@@ -51,8 +73,35 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://example.com/blogi/welcome-to-jekyll</guid>
+        <link>http://example.com/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://example.com/welcome-to-jekyll/</guid>
+        
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Koodarin työkalut osa 1</title>
+        <description>&lt;p&gt;2
+You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;	def print_hi(name)
+	  puts &quot;Hi, #{name}&quot;
+	end
+	print_hi('Tom')
+	#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
+        <link>http://example.com/welcome-to-jekyll-copy/</link>
+        <guid isPermaLink="true">http://example.com/welcome-to-jekyll-copy/</guid>
         
         
         <category>css</category>
@@ -78,8 +127,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/welcome</link>
-        <guid isPermaLink="true">http://example.com/blogi/welcome</guid>
+        <link>http://example.com/welcome/</link>
+        <guid isPermaLink="true">http://example.com/welcome/</guid>
         
         
         <category>javascript</category>
@@ -105,8 +154,62 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/welcome-copy</link>
-        <guid isPermaLink="true">http://example.com/blogi/welcome-copy</guid>
+        <link>http://example.com/welcome-copy/</link>
+        <guid isPermaLink="true">http://example.com/welcome-copy/</guid>
+        
+        
+        <category>internet</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;1
+You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
+        <link>http://example.com/welcome-copy-3/</link>
+        <guid isPermaLink="true">http://example.com/welcome-copy-3/</guid>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;1
+You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
+        <link>http://example.com/welcome-copy-2/</link>
+        <guid isPermaLink="true">http://example.com/welcome-copy-2/</guid>
         
         
         <category>internet</category>
@@ -132,8 +235,35 @@ HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, 
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/html-kurssi</link>
-        <guid isPermaLink="true">http://example.com/blogi/html-kurssi</guid>
+        <link>http://example.com/html-kurssi/</link>
+        <guid isPermaLink="true">http://example.com/html-kurssi/</guid>
+        
+        
+        <category>html</category>
+        
+      </item>
+    
+      <item>
+        <title>Html koodi ei ole varsinaisesti koodia vaan markuppia.</title>
+        <description>&lt;p&gt;Kun lähdin opiskelemaan ohjelmointia aloitin HMTL kielestä joka ei ole ohjelmointi kieli. 
+HTML on markup kieli jonka avulla voidaan luoda HTML dokumentteja jotka avautuvat selaimella nähtäväksi 
+käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, ajattele HTML koodia kuin Lego paloja. 
+Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan. HTML:llä voit rakentaa HTML elementeistä kotisivut, blogin tai vaikkapa kuvagallerian.
+HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, h2, h3, h4, h5 ja h6 lisää HTML elementeistä voi lukea &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/HTML/Element&quot;&gt;MDN sivulta&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;Tämä tässä on block elementti
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Otsikko h1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myVar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;My var&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
+        <link>http://example.com/html-kurssi-copy/</link>
+        <guid isPermaLink="true">http://example.com/html-kurssi-copy/</guid>
         
         
         <category>html</category>
