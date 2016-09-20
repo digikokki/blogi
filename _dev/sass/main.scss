@@ -9,6 +9,7 @@ $brandColorActive: #6EC4E9;
 
 html{
 	box-sizing: border-box;
+	background: $brandColorDark;
 }
 *, *:before, *:after{
 	box-sizing: inherit;
