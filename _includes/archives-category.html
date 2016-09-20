@@ -5,7 +5,7 @@
 	<ul id="blogPostListAll">
 		{% for post in site.categories.html %}
 		<li>
-			<a href="{{ post.url}}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
+			<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}" {% if post.url == page.url %}class="active"{% endif %}>
 			<section>
 				<div class="linkContent">
 					<h4>{{ post.title | escape }}</h4>
