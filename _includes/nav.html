@@ -6,7 +6,7 @@
 			{% for p in navigation_pages %}
 				{% if p.navigation_weight %}
 					<li>
-						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ p.title }}" {% if p.url == page.url %}class="active"{% endif %}>
+						<a href="{{ p.url }}" title="{{ p.title }}" {% if p.url == page.url %}class="active"{% endif %}>
 							{{ p.title }} 
 						</a>
 					</li>
