@@ -6,8 +6,8 @@
 </description>
     <link>http://example.com/blogi/</link>
     <atom:link href="http://example.com/blogi/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Sep 2016 13:26:41 +0300</pubDate>
-    <lastBuildDate>Tue, 20 Sep 2016 13:26:41 +0300</lastBuildDate>
+    <pubDate>Tue, 20 Sep 2016 16:22:04 +0300</pubDate>
+    <lastBuildDate>Tue, 20 Sep 2016 16:22:04 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -24,8 +24,8 @@ print_hi('Tom')
 
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0300</pubDate>
-        <link>http://example.com/blogi/koodarin-tyokalut-osa1/</link>
-        <guid isPermaLink="true">http://example.com/blogi/koodarin-tyokalut-osa1/</guid>
+        <link>http://example.com/blogi/koodarin-tyokalut-osa1</link>
+        <guid isPermaLink="true">http://example.com/blogi/koodarin-tyokalut-osa1</guid>
         
         
         <category>koodarintyokalut</category>
@@ -51,8 +51,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://example.com/blogi/welcome-to-jekyll/</guid>
+        <link>http://example.com/blogi/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://example.com/blogi/welcome-to-jekyll</guid>
         
         
         <category>css</category>
@@ -78,8 +78,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/welcome/</link>
-        <guid isPermaLink="true">http://example.com/blogi/welcome/</guid>
+        <link>http://example.com/blogi/welcome</link>
+        <guid isPermaLink="true">http://example.com/blogi/welcome</guid>
         
         
         <category>javascript</category>
@@ -105,8 +105,8 @@ You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/welcome-copy/</link>
-        <guid isPermaLink="true">http://example.com/blogi/welcome-copy/</guid>
+        <link>http://example.com/blogi/welcome-copy</link>
+        <guid isPermaLink="true">http://example.com/blogi/welcome-copy</guid>
         
         
         <category>internet</category>
@@ -132,8 +132,8 @@ HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, 
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
-        <link>http://example.com/blogi/html-kurssi/</link>
-        <guid isPermaLink="true">http://example.com/blogi/html-kurssi/</guid>
+        <link>http://example.com/blogi/html-kurssi</link>
+        <guid isPermaLink="true">http://example.com/blogi/html-kurssi</guid>
         
         
         <category>html</category>
