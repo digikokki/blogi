@@ -1,4 +1,5 @@
 @import "normalize";
+@import "monokai";
 $whiteText: #e5e5e5;
 $blackText: #222;
 $brandColorLight: #05477c;
@@ -25,6 +26,9 @@ img{
 }
 .fa-globe, .globe{
 	color: #6ecd56;
+}
+.fa-code, javascript{
+	color: #f7df1e;
 }
 .embed-container { 
 	position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
@@ -569,12 +573,12 @@ pre .support.tag {
 }
 
 pre .keyword {
-    color: #F92672
+    color: #33a9dc
 }
 
 pre .selector,
 pre .storage.modifier.extends {
-    color: #F92672
+    color: #33a9dc
 }
 
 pre .inherited-class {
@@ -584,7 +588,7 @@ pre .inherited-class {
 pre .operator,
 pre .support.tag-name,
 pre .entity.tag {
-    color: #F92672
+    color: #33a9dc
 }
 
 pre .entity,
@@ -631,7 +635,7 @@ pre .variable.instance {
 figure pre code { 
 	position: relative; 
 	display: block; 
-	padding: 10px;  
+	padding: 35px 10px;
 }
 figure pre code.language-html:before { 
 	color: #f16529; 
@@ -736,3 +740,4 @@ pre { white-space: pre; word-wrap: normal; }
 pre { white-space: pre; white-space: pre-wrap; white-space: pre-line; word-wrap: break-word; }
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
 code, pre { font-family: "Source Code Pro", "Inconsolata", monospace; font-weight: 400; }
+

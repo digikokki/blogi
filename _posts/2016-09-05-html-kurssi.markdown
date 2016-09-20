@@ -12,4 +12,22 @@ käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, aja
 Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan. HTML:llä voit rakentaa HTML elementeistä kotisivut, blogin tai vaikkapa kuvagallerian.
 HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, h2, h3, h4, h5 ja h6 lisää HTML elementeistä voi lukea [MDN sivulta][html-docs]
 
+
+{% highlight html %}
+Tämä tässä on block elementti
+<h1>Otsikko h1</h1>
+{% endhighlight %}
+
+
+{% highlight css %}
+.class{
+	background:red;
+}
+{% endhighlight %}
+
+{% highlight javascript %}
+var myVar = "My var";
+{% endhighlight %}
+
+
 [html-docs]: https://developer.mozilla.org/en/docs/Web/HTML/Element 

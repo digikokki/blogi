@@ -21,7 +21,6 @@ title: HTML5 - Artikkelit
 		<li>
 			<a href="{{ post.url}}" title="{{ post.title }}">
 			<section>
-			
 				<div class="blogPostListContent">
 					<h2>{{ post.title | escape }}</h2>
 					<div class="blogPostDetails">Andreas Koutsouos <span>|</span> <time>{{ post.date | date: "%m.%d.%Y" }}</time> <span>|</span> 2 Kommenttia</div>
@@ -33,8 +32,5 @@ title: HTML5 - Artikkelit
 		</li>
 		{% endfor %}
 	</ul>
-	
-	
-	
 </article>
 </main>

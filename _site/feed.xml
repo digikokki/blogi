@@ -6,8 +6,8 @@
 </description>
     <link>http://example.com/</link>
     <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Sep 2016 09:46:54 +0300</pubDate>
-    <lastBuildDate>Tue, 20 Sep 2016 09:46:54 +0300</lastBuildDate>
+    <pubDate>Tue, 20 Sep 2016 12:51:11 +0300</pubDate>
+    <lastBuildDate>Tue, 20 Sep 2016 12:51:11 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -120,6 +120,15 @@ HTML on markup kieli jonka avulla voidaan luoda HTML dokumentteja jotka avautuva
 käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, ajattele HTML koodia kuin Lego paloja. 
 Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan. HTML:llä voit rakentaa HTML elementeistä kotisivut, blogin tai vaikkapa kuvagallerian.
 HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, h2, h3, h4, h5 ja h6 lisää HTML elementeistä voi lukea &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/HTML/Element&quot;&gt;MDN sivulta&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;Tämä tässä on block elementti
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Otsikko h1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myVar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;My var&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Tue, 06 Sep 2016 18:30:46 +0300</pubDate>
