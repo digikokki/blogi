@@ -19,7 +19,7 @@ title: Koodarintyökalut - Artikkelit
 	<ul id="blogPostListAll">
 		{% for post in site.categories.koodarintyokalut %}
 		<li>
-			<a href="{{ post.url}}" title="{{ post.title }}">
+			<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 			<section>
 				<div class="blogPostListContent">
 					<h2>{{ post.title | escape }}</h2>
