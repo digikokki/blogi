@@ -7,7 +7,7 @@
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 		<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-		<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+		<link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
 		<title>{{ site.title }} // Opetusvlogi</title>
 		<meta name="description" content="Simppeleitä HTML ja CSS tutoriaaleja" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
