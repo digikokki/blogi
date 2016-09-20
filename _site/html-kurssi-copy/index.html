@@ -96,7 +96,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Koodarin työkalut osa 2</h4>
-				<p>Hei! def print_hi(name) puts "Hi, #{name}" end print_hi('Tom') #=&gt; prints...</p>
+				<p>Hei! {% highlight html %} def print_hi(name) puts "Hi, #{name}"...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-cogs"></i></span>COGS ( 4 )</h6>
@@ -112,7 +112,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Koodarin työkalut osa 2</h4>
-				<p>Hei! def print_hi(name) puts "Hi, #{name}" end print_hi('Tom') #=&gt; prints...</p>
+				<p>Hei! {% highlight html %} def print_hi(name) puts "Hi, #{name}"...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-cogs"></i></span>COGS ( 4 )</h6>
@@ -128,7 +128,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Koodarin työkalut osa 1</h4>
-				<p>2 You’ll find this post in your _posts directory. Go...</p>
+				<p>2 You’ll find this post in your `_posts` directory. Go...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-css3"></i></span>CSS3 ( 4 )</h6>
@@ -144,7 +144,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Koodarin työkalut osa 1</h4>
-				<p>2 You’ll find this post in your _posts directory. Go...</p>
+				<p>2 You’ll find this post in your `_posts` directory. Go...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-css3"></i></span>CSS3 ( 4 )</h6>
@@ -160,7 +160,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Hello World!</h4>
-				<p>1 You’ll find this post in your _posts directory. Go...</p>
+				<p>1 You’ll find this post in your `_posts` directory. Go...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-code"></i></span>CODE ( 4 )</h6>
@@ -176,7 +176,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Hello World!</h4>
-				<p>1 You’ll find this post in your _posts directory. Go...</p>
+				<p>1 You’ll find this post in your `_posts` directory. Go...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-globe"></i></span>GLOBE ( 4 )</h6>
@@ -192,7 +192,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Hello World!</h4>
-				<p>1 You’ll find this post in your _posts directory. Go...</p>
+				<p>1 You’ll find this post in your `_posts` directory. Go...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-code"></i></span>CODE ( 4 )</h6>
@@ -208,7 +208,7 @@
 		<section>
 			<div class="linkContent">
 				<h4>Hello World!</h4>
-				<p>1 You’ll find this post in your _posts directory. Go...</p>
+				<p>1 You’ll find this post in your `_posts` directory. Go...</p>
 			</div>
 			<div class="linkDetails">
 				<h6><span><i class="fa fa-globe"></i></span>GLOBE ( 4 )</h6>
@@ -236,7 +236,7 @@
 	</li>
 	
 	<li>
-		<a href="/html-kurssi-copy/" title="Html koodi ei ole varsinaisesti koodia vaan markuppia." >
+		<a href="/html-kurssi-copy/" title="Html koodi ei ole varsinaisesti koodia vaan markuppia." class="active">
 		<section>
 			<div class="linkContent">
 				<h4>Html koodi ei ole varsinaisesti koodia vaan markuppia.</h4>
@@ -300,39 +300,32 @@
 </ul>
 	</div>
 </aside>
-<article id="archiveBlogList">
-	<section id="archiveHeading">
-		<h1><i class="fa fa-html5"></i> HTML5 - Artikkelit</h1>
+<article>
+	
+	<section>
+		<header>
+		<div class='embed-container'>
+			<iframe width="100%" height="350px" src="https://www.youtube.com/embed/uAthNqWnyVE" frameborder="0" allowfullscreen></iframe>
+		</div>
+		</header>
+		
+		<p>Kun lähdin opiskelemaan ohjelmointia aloitin HMTL kielestä joka ei ole ohjelmointi kieli. 
+HTML on markup kieli jonka avulla voidaan luoda HTML dokumentteja jotka avautuvat selaimella nähtäväksi 
+käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, ajattele HTML koodia kuin Lego paloja. 
+Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan. HTML:llä voit rakentaa HTML elementeistä kotisivut, blogin tai vaikkapa kuvagallerian.
+HTML elementtejä on paljon ja niistä käytetyimmät ovat mm. otsikkotasot h1, h2, h3, h4, h5 ja h6 lisää HTML elementeistä voi lukea <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element">MDN sivulta</a></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">Tämä tässä on block elementti
+<span class="nt">&lt;h1&gt;</span>Otsikko h1<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.class</span><span class="p">{</span>
+	<span class="nl">background</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">myVar</span> <span class="o">=</span> <span class="s2">"My var"</span><span class="p">;</span></code></pre></figure>
+
+ 
 	</section>
-	<ul id="blogPostListAll">
-		
-		<li>
-			<a href="/html-kurssi/" title="Html koodi ei ole varsinaisesti koodia vaan markuppia.">
-			<section>
-				<div class="blogPostListContent">
-					<h2>Html koodi ei ole varsinaisesti koodia vaan markuppia.</h2>
-					<div class="blogPostDetails">Andreas Koutsouos <span>|</span> <time>09.06.2016</time> <span>|</span> 2 Kommenttia</div>
-					<p>Kun lähdin opiskelemaan ohjelmointia aloitin HMTL kielestä joka ei ole ohjelmointi kieli. HTML on markup kieli jonka avulla voidaan luoda HTML dokumentteja jotka avautuvat selaimella nähtäväksi käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, ajattele HTML koodia kuin Lego paloja. Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan....</p>
-					
-				</div>
-			</section>
-			</a>
-		</li>
-		
-		<li>
-			<a href="/html-kurssi-copy/" title="Html koodi ei ole varsinaisesti koodia vaan markuppia.">
-			<section>
-				<div class="blogPostListContent">
-					<h2>Html koodi ei ole varsinaisesti koodia vaan markuppia.</h2>
-					<div class="blogPostDetails">Andreas Koutsouos <span>|</span> <time>09.06.2016</time> <span>|</span> 2 Kommenttia</div>
-					<p>Kun lähdin opiskelemaan ohjelmointia aloitin HMTL kielestä joka ei ole ohjelmointi kieli. HTML on markup kieli jonka avulla voidaan luoda HTML dokumentteja jotka avautuvat selaimella nähtäväksi käyttäjälle. Kaikki mitä näet selaimella luodaan HTML tiedoston avulla, ajattele HTML koodia kuin Lego paloja. Kuten Legoista voit rakentaa erilaisista elementeistä talon taikka linnan....</p>
-					
-				</div>
-			</section>
-			</a>
-		</li>
-		
-	</ul>
 </article>
 </main> 
 	</span>
